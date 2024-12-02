@@ -1,20 +1,34 @@
 # App Verification Package Plan
 A .NET client for consuming the Microbilt App Verification Package APIs.
 
-APIs in this plan:
-ABAAcctVerification			    https://developer.microbilt.com/api/ABAAcctVerification
-AddressNameVerification		  https://developer.microbilt.com/api/AddressNameVerification
-DeathMasterFileValidation	  https://developer.microbilt.com/api/DeathMasterFileValidation
-DLVerify					          https://developer.microbilt.com/api/DLVerify
-EmailValidation				      https://developer.microbilt.com/api/EmailValidation
-IPAddressInfo				        https://developer.microbilt.com/api/IPAddressInfo
-OFACWatchlistSearch			    https://developer.microbilt.com/api/OFACWatchlistSearch
-PhoneAddressVerification	  https://developer.microbilt.com/api/PhoneAddressVerification
-PhoneNameVerification		    https://developer.microbilt.com/api/PhoneNameVerification
-SSNAddressVerification		  https://developer.microbilt.com/api/SSNAddressVerification
-SSNNameVerification			    https://developer.microbilt.com/api/SSNNameVerification
-SSNPhoneVerification		    https://developer.microbilt.com/api/SSNPhoneVerification
-SSNValidation				        https://developer.microbilt.com/api/SSNValidation
+For more about APIs You can see on [Microbilt Developer Portal](https://developer.microbilt.com/)
+
+## APIs in this plan:
+[ABAAcctVerification](https://developer.microbilt.com/api/ABAAcctVerification)
+
+[AddressNameVerification](https://developer.microbilt.com/api/AddressNameVerification)
+
+[DeathMasterFileValidation](https://developer.microbilt.com/api/DeathMasterFileValidation)
+
+[DLVerify](https://developer.microbilt.com/api/DLVerify)
+
+[EmailValidation](https://developer.microbilt.com/api/EmailValidation)
+
+[IPAddressInfo](https://developer.microbilt.com/api/IPAddressInfo)
+
+[OFACWatchlistSearch](https://developer.microbilt.com/api/OFACWatchlistSearch)
+
+[PhoneAddressVerification](https://developer.microbilt.com/api/PhoneAddressVerification)
+
+[PhoneNameVerification](https://developer.microbilt.com/api/PhoneNameVerification)
+
+[SSNAddressVerification](https://developer.microbilt.com/api/SSNAddressVerification)
+
+[SSNNameVerification](https://developer.microbilt.com/api/SSNNameVerification)
+
+[SSNPhoneVerification](https://developer.microbilt.com/api/SSNPhoneVerification)
+
+[SSNValidation](https://developer.microbilt.com/api/SSNValidation)
 
 # Installation
 
@@ -37,7 +51,9 @@ AppVerificationPackageClient planClient = new AppVerificationPackageClient("clie
 For usage you need create plan client with you credentials
 All APIs implemented like property in ```AppVerificationPackageClient``` class 
 ```appVerificationPackageClient.AddressNameVerificationClient.GetReport("You request body in JSON format")```
-More usage with test call APIs from plan:
+
+## More usage with test call APIs from plan:
+
 ```
 using App_Verification_Package;
 
